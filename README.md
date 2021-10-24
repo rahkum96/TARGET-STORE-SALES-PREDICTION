@@ -49,5 +49,22 @@ applying some aggregation functions on them.
 a survey or experiment to see if you have meaningful results. You should give a brief 
 summary of the data and a summary of the results of your statistical test. In the 
 discussion, you can discuss whether your initial hypothesis was supported or refuted.
+7. Identify the most important variables (or data parameters) that affect the final 
+decision: Identify the impact of each variable on the final result graphically (correlation / 
+scatter plots, regression plots, etc.). Keep those variables that affect the final outcome.
+8. Develop and Validate Samples: Divide samples into 2 parts: Development Sample (70%) 
+& Validation Sample (30%). Build your analysis model using the Development Sample, 
+and validate it on the validation sample and then predict on test sample.
+9. Model Building: Analyze the dependent variable and decide which technique out of 
+regression or classification to use and hence build the model.
+10. Improving model accuracy: We know that machine learning algorithms are driven by 
+parameters. These parameters majorly influence the outcome of learning process. So, 
+find the optimum value for each parameter to improve the accuracy of the model and 
+repeat this process with a number of well performing models.
+11. Model Comparison: Comparing the each model with other similar models and then 
+choose that model which give highest accuracy. But it is not necessary that higher 
+accuracy models always perform better (for unseen data points). So, find the right 
+accuracy of the model, you must use cross validation technique before finalizing the 
+model.
 
 
