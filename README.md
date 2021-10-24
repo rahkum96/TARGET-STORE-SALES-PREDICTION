@@ -65,7 +65,7 @@ repeat this process with a number of well performing models.
 choose that model which give highest accuracy. But it is not necessary that higher 
 accuracy models always perform better (for unseen data points). So, find the right 
 accuracy of the model, you must use cross validation technique before finalizing the 
-model.
+model. 
 
 ### Dataset:
 - Dataset are already uploded in this repo
