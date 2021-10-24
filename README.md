@@ -67,4 +67,6 @@ accuracy models always perform better (for unseen data points). So, find the rig
 accuracy of the model, you must use cross validation technique before finalizing the 
 model.
 
-
+### Dataset:
+- Dataset are already uploded in this repo
+https://github.com/rahkum96/TARGET-STORE-SALES-PREDICTION
