@@ -69,4 +69,4 @@ model.
 
 ### Dataset:
 - Dataset are already uploded in this repo
-https://github.com/rahkum96/TARGET-STORE-SALES-PREDICTION
+https://github.com/rahkum96/TARGET-STORE-SALES-PREDICTION 
