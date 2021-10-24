@@ -7,7 +7,7 @@ Dataset provided with historical sales data for 45 stores located in different r
 One challenge of modeling retail data is the need to make decisions based on limited history. Holidays and select major events come once a year, and so does the chance to see how strategic decisions impacted the bottom line. In addition, markdowns are known to affect sales the challenge is to predict which departments will be affected and to what extent.
 
 ### Variable Description:
-- Over here we have 3 Excel Sheet, named as Store_Details, Business_Data and Sales_History.
+- Over here we have 3 CSV file, named as Store_Details, Business_Data and Sales_History.
 
 #### Store_Details:
 - Anonymized information about 45 stores indicating store type, Address, Location and size of store.
@@ -34,26 +34,24 @@ Historical sales data of each store from 30th April 2017 to 25th October 2019. W
 ### Approach:
 1. **Understand the data variables properly**. Checking the variable description to understand 
 the data properly. 
-2. **Clean the data:** Clean the data, that is, fill the missing values (if any), treat the outliers 
-(or odd values), etc. Ensure each variable’s data is as per the nature of the variable (e.g. 
+2. **Clean the data:** Cleaning the data, that is, filling the missing values (if any), treat the outliers 
+(or odd values), etc. Ensuring each variable’s data is as per the nature of the variable (e.g. 
  Date field should contain only date values – can extract year, month and day of the 
 week, and numeric column should be formatted as numeric, etc.).
-3. **Conduct EDA (Exploratory Data Analysis) on the cleaned Data:** Summarize, explore the 
-data and then decide your strategy. Make note of any important assumptions that you 
-make.
-4. **Uni-variate and Bi-variate Analysis:** Check the distribution of independent variables and 
+3. **Conduct EDA (Exploratory Data Analysis) on the cleaned Data:** Summarized and explore the 
+data and then decide my strategy. 
+4. **Uni-variate and Bi-variate Analysis:** Checking the distribution of independent variables and 
 also compare them with the dependent variable.
-5. **Feature Engineering:** Create new meaningful features based on the existing features by 
+5. **Feature Engineering:** Creating new meaningful features based on the existing features by 
 applying some aggregation functions on them.
 6. **Hypothesis Testing:** Hypothesis testing in statistics is a way for you to test the results of 
-a survey or experiment to see if you have meaningful results. You should give a brief 
-summary of the data and a summary of the results of your statistical test. In the 
-discussion, you can discuss whether your initial hypothesis was supported or refuted.
+a survey or experiment to see if you have meaningful results. Given a brief 
+summary of the data and a summary of the results of your statistical test. 
 7. **Identify the most important variables (or data parameters) that affect the final 
 decision:** Identify the impact of each variable on the final result graphically (correlation / 
 scatter plots, regression plots, etc.). Keep those variables that affect the final outcome.
 8. **Develop and Validate Samples:** Divide samples into 2 parts: Development Sample (80%) 
-& Validation Sample (20%). Build your analysis model using the Development Sample, 
+& Validation Sample (20%). Building analysis model using the Development Sample, 
 and validate it on the validation sample and then predict on test sample.
 9. **Model Building:** Analyze the dependent variable and decide which technique out of 
 regression or classification to use and hence build the model.
