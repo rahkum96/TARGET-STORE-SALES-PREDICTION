@@ -22,7 +22,7 @@ Contains additional data related to the store, department, and regional activity
 - CPI - The Consumer Price Index (CPI) is a measure of the average change in prices over time that consumers pay for a weighted averaged basket of goods and services.
 - Unemployment_Rate - the unemployment rate of the region where the store is located.
 - Holiday - whether the week is a special holiday week
-- 
+
 #### Sales_History:
 Historical sales data of each store from 30th April 2017 to 25th October 2019. Within this tab you will find the following fields:
 - Store - the store number
@@ -30,5 +30,24 @@ Historical sales data of each store from 30th April 2017 to 25th October 2019. W
 - Date - the week
 - Total_Sales –Total sales for the given department in the given store
 - Holiday - whether the week is a special holiday wee
+
+### Approach:
+1. Understand the data variables properly. Check the variable description to understand 
+the data properly. 
+2. Clean the data: Clean the data, that is, fill the missing values (if any), treat the outliers 
+(or odd values), etc. Ensure each variable’s data is as per the nature of the variable (e.g. 
+ Date field should contain only date values – can extract year, month and day of the 
+week, and numeric column should be formatted as numeric, etc.).
+3. Conduct EDA (Exploratory Data Analysis) on the cleaned Data: Summarize, explore the 
+data and then decide your strategy. Make note of any important assumptions that you 
+make.
+4. Uni-variate and Bi-variate Analysis: Check the distribution of independent variables and 
+also compare them with the dependent variable.
+5. Feature Engineering: Create new meaningful features based on the existing features by 
+applying some aggregation functions on them.
+6. Hypothesis Testing: Hypothesis testing in statistics is a way for you to test the results of 
+a survey or experiment to see if you have meaningful results. You should give a brief 
+summary of the data and a summary of the results of your statistical test. In the 
+discussion, you can discuss whether your initial hypothesis was supported or refuted.
 
 
