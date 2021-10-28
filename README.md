@@ -31,6 +31,9 @@ Historical sales data of each store from 30th April 2017 to 25th October 2019. W
 - Total_Sales –Total sales for the given department in the given store
 - Holiday - whether the week is a special holiday wee
 
+### Result:
+- pridected total sales dataset are the predicted sales data.
+
 ### Approach:
 1. **Understand the data variables properly**. Checking the variable description to understand 
 the data properly. 
