@@ -68,6 +68,20 @@ accuracy models always perform better (for unseen data points). So, find the rig
 accuracy of the model, you must use cross validation technique before finalizing the 
 model. 
 
-### Dataset:
+### Dependencies
+ 
+* numpy
+* matplotlib
+* scikit-learn
+* seaborn
+* pyhthon 3.9
+
+## Usage
+
+Just run `jupyter notebook` in terminal and it will run in your browser.
+
+Install Jupyter [here](http://jupyter.readthedocs.io/en/latest/install.html) i've you haven't.
+
+## Dataset:
 - Dataset are already uploded in this repo
 https://github.com/rahkum96/TARGET-STORE-SALES-PREDICTION 
