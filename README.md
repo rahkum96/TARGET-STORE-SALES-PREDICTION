@@ -24,7 +24,7 @@ Contains additional data related to the store, department, and regional activity
 - Holiday - whether the week is a special holiday week
 
 #### Sales_History:
-Historical sales data of each store from '30th April 2017 to 25th October 2019'. Within this tab you will find the following fields:
+Historical sales data of each store from `30th April 2017 to 25th October 2019`. Within this tab you will find the following fields:
 - Store - the store number
 - Department - the department number
 - Date - the week
