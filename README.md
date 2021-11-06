@@ -43,7 +43,7 @@ the data properly.
 week, and numeric column should be formatted as numeric, etc.).
 3. **Conduct EDA (Exploratory Data Analysis) on the cleaned Data:** Summarized and explore the 
 data and then decide my strategy. 
-4. **Uni-variate and Bi-variate Analysis:** Checking the distribution of independent variables and 
+4. **Uni-variate and Bi-variate Analysis:** Checking the distribution of independent variables and  
 also compare them with the dependent variable.
 5. **Feature Engineering:** Creating new meaningful features based on the existing features by 
 applying some aggregation functions on them.
