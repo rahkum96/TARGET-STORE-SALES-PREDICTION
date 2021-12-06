@@ -3,16 +3,16 @@ Dataset provided with historical sales data for 45 stores located in different r
 
 ![image](https://user-images.githubusercontent.com/86415241/138585818-0d7a1a99-6e70-4af2-a577-67c91e6d17da.png)
 
-### Problem description:
+## Problem description:
 One challenge of modeling retail data is the need to make decisions based on limited history. Holidays and select major events come once a year, and so does the chance to see how strategic decisions impacted the bottom line. In addition, markdowns are known to affect sales the challenge is to predict which departments will be affected and to what extent.
 
-### Variable Description:
+## Variable Description:
 - Over here we have 3 CSV file, named as Store_Details, Business_Data and Sales_History.
 
-#### Store_Details:
+### Store_Details:
 - Anonymized information about 45 stores indicating store type, Address, Location and size of store.
 
-#### Business_Data:
+### Business_Data:
 Contains additional data related to the store, department, and regional activity for the given dates.
 - Store - the store number
 - Date - the week
@@ -23,7 +23,7 @@ Contains additional data related to the store, department, and regional activity
 - Unemployment_Rate - the unemployment rate of the region where the store is located.
 - Holiday - whether the week is a special holiday week
 
-#### Sales_History:
+### Sales_History:
 Historical sales data of each store from `30th April 2017 to 25th October 2019`. Within this tab you will find the following fields:
 - Store - the store number
 - Department - the department number
@@ -31,10 +31,10 @@ Historical sales data of each store from `30th April 2017 to 25th October 2019`.
 - Total_Sales –Total sales for the given department in the given store
 - Holiday - whether the week is a special holiday wee
 
-### Result:
+## Result:
 - pridected total sales dataset are the predicted sales data.
 
-### Approach:
+## Approach:
 1. **Understand the data variables properly**. Checking the variable description to understand 
 the data properly. 
 2. **Clean the data:** Cleaning the data, that is, filling the missing values (if any), treat the outliers 
@@ -68,14 +68,14 @@ accuracy models always perform better (for unseen data points). So, find the rig
 accuracy of the model, you must use cross validation technique before finalizing the 
 model. 
 
-### Dependencies
- 
-* numpy
-* matplotlib
-* scikit-learn
-* seaborn
-* pyhthon 3.9
-
+## Dependencies
+```
+- numpy
+- matplotlib
+- scikit-learn
+- seaborn
+- pyhthon 3.9
+```
 ## Usage
 
 Just run `jupyter notebook` in terminal and it will run in your browser.
